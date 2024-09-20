@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "learning grapql",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "grapql"
+  ],
+  "author": "Gopal Gavas",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "@types/axios": "^0.14.0",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "graphql": "^16.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.6"
+  }
+}
